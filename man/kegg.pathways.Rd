@@ -16,26 +16,29 @@ kegg.pathways
 }
 \description{
 Collection of KEGG signaling pathways extracted using 
-the \code{graphite} R package (update: October, 2019).
+the \code{graphite} R package (update: April, 2020).
 }
 \examples{
 
 ## NOT RUN ## {
 
 # Number of nodes per pathway
-kegg.nodes <- unlist(lapply(kegg.pathways, graph::numNodes))
+kegg.nodes <- unlist(lapply(kegg.pathways, vcount))
+names(kegg.nodes) <- NULL
 # Number of edges per pathway
-kegg.edges <- unlist(lapply(kegg.pathways, graph::numEdges))
+kegg.edges <- unlist(lapply(kegg.pathways, ecount))
+names(kegg.edges) <- NULL
 # Gene list per pathway
-kegg.genes <- unlist(lapply(kegg.pathways, graph::nodes))
+kegg.genes <- unlist(lapply(kegg.pathways, function(x) V(x)$name))
 quantile(kegg.nodes)
 quantile(kegg.edges)
 length(unique(kegg.genes))  # Number of unique genes within the dataset
 
 # Loading breast cancer KEGG network
-i <- which(names(kegg.pathways) == "Breast cancer")
-bc.graph <- kegg.pathways[[i]]
-bc.graph
+i <- which(names(kegg.pathways) == "Steroid biosynthesis")
+sb.graph <- kegg.pathways[[i]]
+summary(sb.graph)
+gplot(sb.graph)
 
 ## }
 

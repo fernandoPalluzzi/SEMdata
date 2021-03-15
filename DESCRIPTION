@@ -1,7 +1,7 @@
 Package: SEMdata
 Type: Package
 Title: Datasets for SEM-based network analysis using the SEMgraph R package
-Version: 0.1.0
+Version: 0.1.2
 Date: 2020-12-01
 Author: Mario Grassi [aut], Fernando Palluzzi [aut, cre], Daniele Pepe [ctb]
 Maintainer: Fernando Palluzzi <fernando.palluzzi@gmail.com>
