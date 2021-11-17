@@ -43,11 +43,11 @@ table(alsData$group)
 Tam OH, Rozhkov NV, Shaw R, Kim D et al. (2019). Postmortem Cortex 
 Samples Identify Distinct Molecular Subtypes of ALS: Retrotransposon 
 Activation, Oxidative Stress, and Activated Glia. Cell Repprts, 
-29(5):1164-1177.e5. DOI: https://doi.org/10.1016/j.celrep.2019.09.066
+29(5):1164-1177.e5. <https://doi.org/10.1016/j.celrep.2019.09.066>
 
 Jeffrey T. Leek, W. Evan Johnson, Hilary S. Parker, Andrew E. Jaffe, 
 and John D. Storey (2012). The sva package for removing batch effects 
 and other unwanted variation in high-throughput experiments. 
 Bioinformatics. Mar 15; 28(6): 882-883. 
-https://doi.org/10.1093/bioinformatics/bts034
+<https://doi.org/10.1093/bioinformatics/bts034>
 }

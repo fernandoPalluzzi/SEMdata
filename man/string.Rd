@@ -34,5 +34,5 @@ Simonovic M, Doncheva NT, Morris JH, Bork P, Jensen LJ, von Mering C
 (2019). STRING v11: protein-protein association networks with increased 
 coverage, supporting functional discovery in genome-wide experimental 
 datasets. Nucleic Acids Res., 47: D607-613. 
-https://doi.org/10.1093/nar/gky1131
+<https://doi.org/10.1093/nar/gky1131>
 }

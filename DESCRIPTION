@@ -12,6 +12,6 @@ LazyData: TRUE
 Depends: R (>= 4.0)
 Suggests: BiocStyle, graphite, igraph, knitr, org.Hs.eg.db, rmarkdown, SEMgraph
 VignetteBuilder: knitr
-RoxygenNote: 7.1.1
+RoxygenNote: 7.1.2
 NeedsCompilation: no
 Packaged: 2020-08-01 07:36:30 UTC; fernando

@@ -38,13 +38,13 @@
 #' Rothfels K, Sevilla C, Shamovsky V, Shorser S, Varusai T, Weiser J, 
 #' Wu G, Stein L, Hermjakob H, D'Eustachio P. 
 #' The reactome pathway knowledgebase. 
-#' Nucleic Acids Res. 2020 Jan 8;48(D1):D498-D503. 
-#' doi: 10.1093/nar/gkz1031. PubMed PMID: 31691815.
+#' Nucleic Acids Res. 2020 Jan 8;48(D1):D498-D503. PubMed PMID: 31691815.
+#' <doi:10.1093/nar/gkz1031>
 #' 
 #' Martini P, Sales G, Massa MS, Chiogna M, Romualdi C. Along signal paths: 
 #' anempirical gene set approach exploiting pathway topology. 
 #' Nucleic Acids Res. 41(1):e19.
-#' https://doi.org/10.1093/nar/gks866.
+#' <https://doi.org/10.1093/nar/gks866>
 #' 
 #' @examples
 #' 
