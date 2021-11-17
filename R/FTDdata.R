@@ -47,7 +47,7 @@
 #' Li Y, Chen JA, Sears RL, Gao F et al. An epigenetic signature in 
 #' peripheral blood associated with the haplotype on 17q21.31, a risk 
 #' factor for neurodegenerative tauopathy. PLoS Genet 2014 Mar;10(3):e1004211.
-#' https://doi.org/10.1371/journal.pgen.1004211
+#' <https://doi.org/10.1371/journal.pgen.1004211>
 #'
 #' @examples
 #' dim(ftdDNAme$pc1)
