@@ -1,17 +1,16 @@
 Package: SEMdata
 Type: Package
 Title: Datasets for SEM-based network analysis using the SEMgraph R package
-Version: 1.1.0
-Date: 2022-06-22
+Version: 1.1.1
+Date: 2025-12-01
 Author: Mario Grassi [aut], Fernando Palluzzi [aut, cre]
 Maintainer: Fernando Palluzzi <fernando.palluzzi@gmail.com>
-Description: This package contains a collection of datasets and reference interaction networks for graph analysis in computational biology.
+Description: This package contains a collection of datasets and reference interaction networks for SEM analysis.
 License: GPL-3
 Encoding: UTF-8
 LazyData: TRUE
 Depends: R (>= 4.0)
-Suggests: BiocStyle, graphite, igraph, knitr, org.Hs.eg.db, rmarkdown, SEMgraph
-VignetteBuilder: knitr
-RoxygenNote: 7.1.2
+Suggests: SEMgraph, graphite, org.Hs.eg.db 
+RoxygenNote: 7.3.3
 NeedsCompilation: no
 Packaged: 2022-06-22 07:36:30 UTC; fernando

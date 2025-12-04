@@ -19,7 +19,6 @@
 
 # -------------------------------------------------------------------- #
 
-
 #' @title Amyotrophic Lateral Sclerosis (ALS) dataset
 #'
 #' @description Expression profiling through high-throughput sequencing 

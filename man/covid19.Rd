@@ -5,12 +5,17 @@
 \alias{covid19}
 \title{COVID-19 RNA-seq dataset}
 \format{
-covis19 is a data.frame of 15957 rows (genes) and 69 columns (subjects), 
-including RSEM count data for 23 (C1-23) non-critical and 46 (P1-46) 
-critical COVID-19 cases. The former group is composed by patients in 
-a non-critical care ward under supplemental oxygen, while the latter 
-included patients in the intensive care unit with Acute Respiratory 
-Distress Syndrome (ARDS), as reported by Carapito et al. 2022.
+covid19 is a list of 2 objects:
+\enumerate{
+\item "covid19", 13896 rows (genes) and 69 columns (subjects), 
+including RNA-Seq by Expectation-Maximization (RSEM) count data for
+non-critical and critical COVID-19 cases.
+The former group is composed by patients in a non-critical care ward
+under supplemental oxygen, while the latter included patients in the
+intensive care unit with Acute Respiratory Distress Syndrome (ARDS);
+\item "group", a binary group vector of 23 non-critical (0) and 46
+critical COVID-19 cases (1). 
+}
 }
 \source{
 \url{https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE172114}
@@ -21,12 +26,12 @@ covid19
 \description{
 Expression profiling through high-throughput sequencing 
 (RNA-seq, Illumina NovaSeq 6000) of 72 young human patients 
-(< 50 years old) with severe forms of COVID-19, 
-from Carapito et al. (2022).
+(< 50 years old) with severe forms of COVID-19, as reported by
+Carapito et al.(2022).
 }
 \examples{
-summary(covid19)
 dim(covid19)
+table(covid19$group)
 
 }
 \references{
