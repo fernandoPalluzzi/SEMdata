@@ -19,7 +19,7 @@
 
 # -------------------------------------------------------------------- #
 
-#' @title TCGA Brest cancer (BRCA) dataset
+#' @title TCGA Breast cancer (BRCA) dataset
 #'
 #' @description TCGA data from the "data category": Transcriptome Profiling,
 #' "data type": Gene Expression Quantification, "experimental strategy": RNA
